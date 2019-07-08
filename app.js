@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.use(express.static("public"));
-mongoose.connect("mongodb+srv://dawod331:A0000a0000#@cluster0-tsxqz.mongodb.net/todolistDB", {
+mongoose.connect("mongodb+srv://dawod331:A0000a0000#@cluster0-tsxqz.mongodb.net/testlist2DB", {
     useNewUrlParser: true
 });
 // بدايتا ننشء اسكيما جديدة لتعرف المخطط
